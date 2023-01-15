@@ -19,4 +19,4 @@ Simple Docker PHP 8 boilerplate for Symfony projects
 0) `cp .env-example` `.env`
 1) `docker-compose up`
 2) `docker exec -it medial_php bash`
-3) `symfony new ./symfony/`
+3) `symfony new .`
