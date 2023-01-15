@@ -1,5 +1,5 @@
-# Docker PHP boilerplate
-Simple Docker boilerplate for Symfony projects
+# Docker Symfony 6 boilerplate
+Simple Docker PHP 8 boilerplate for Symfony projects
 
 ## Features
 - PHP with built-in Web server
@@ -14,3 +14,9 @@ Simple Docker boilerplate for Symfony projects
 
 ## Usage
 - `docker-compose up`
+
+### New Symfony project
+0) `cp .env-example` `.env`
+1) `docker-compose up`
+2) `docker exec -it medial_php bash`
+3) `symfony new ./symfony/`
