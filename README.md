@@ -1,9 +1,6 @@
 # Docker PHP boilerplate
 Simple Docker boilerplate for Symfony projects
 
-# Status
-Work In Progress!
-
 ## Features
 - PHP with built-in Web server
 - Maria DB
