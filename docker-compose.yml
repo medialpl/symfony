@@ -27,8 +27,7 @@ services:
     volumes:
     - ./data/db/:/var/lib/mysql/
   node:
-    build:
-      context: ./containers/node/
+    image: medial/node_symfony:latest
     container_name: medial_node
     networks:
       frontend:
